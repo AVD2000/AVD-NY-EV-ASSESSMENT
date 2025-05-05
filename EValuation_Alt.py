@@ -130,9 +130,10 @@ ax1.set_ylabel('Number of Level 2 Ports')
 ax1.set_xticklabels(df_sorted_L2.index, rotation=90)
 # Adjust layout
 fig.tight_layout()
-# Showing the plot
-plt.show()
 # Saving the figure
 fig.savefig('T_15_L2_Ports.png')
+# Showing the plot
+plt.show()
+
 
 
